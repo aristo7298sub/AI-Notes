@@ -1,0 +1,27 @@
+{
+    // ===== Copilot 核心 =====
+    "github.copilot.chat.githubMcpServer.enabled": true,
+    "github.copilot.chat.githubMcpServer.lockdown": true,
+    "chat.useAgentSkills": true,
+    // ===== Agent 模式 =====
+    "github.copilot.chat.agent.enabled": true,
+    "github.copilot.chat.agent.thinkingTool": true,
+    // ===== MCP 自动批准 =====
+    "github.copilot.chat.mcp.autoApprove": {
+        "microsoft-docs": true,
+        "ms-fabric-rti": true,
+        "azure-kusto": true
+    },
+    // ===== 终端 =====
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.env.windows": {
+        "PYTHONIOENCODING": "utf-8"
+    },
+    // ===== 编辑器 =====
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "files.trimTrailingWhitespace": false
+    }
+}

@@ -1,0 +1,391 @@
+{
+  // Aristo-Avatar Toolsets Configuration
+  // 定义不同 agent 角色的工具权限和 MCP 服务器访问范围
+  // 参考: https://docs.anthropic.com/en/docs/claude-code/toolsets
+  // === 默认工具集 ===
+  // 所有 agent 和 session 都可用的基础工具
+  "default": {
+    "description": "基础工具 — 文件读写、终端、搜索",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      }
+    }
+  },
+  // === 调查工具集 ===
+  // 用于 Kusto 调查的 agent (platform/apim/backend-investigator)
+  "investigation": {
+    "description": "调查工具 — Kusto 查询 + 文件操作",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      },
+      "Task": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "azure-kusto": {
+        "enabled": true
+      },
+      "microsoft-docs": {
+        "enabled": true
+      }
+    }
+  },
+  // === IcM 工具集 ===
+  // 用于 icm-scanner agent
+  "icm": {
+    "description": "IcM 事件搜索工具",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "icm-mcp": {
+        "enabled": true
+      }
+    }
+  },
+  // === ASC 工具集 ===
+  // 用于 asc-diagnostics agent
+  "asc": {
+    "description": "ASC 资源诊断工具",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "asc": {
+        "enabled": true
+      }
+    }
+  },
+  // === CRM 工具集 ===
+  // 用于 CRM 案例查询
+  "crm": {
+    "description": "CRM 案例搜索工具",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "crm": {
+        "enabled": true
+      }
+    }
+  },
+  // === M365 工具集 ===
+  // 用于 Work IQ 搜索
+  "m365": {
+    "description": "M365 上下文搜索工具 (邮件、Teams、会议、文件)",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "workiq": {
+        "enabled": true
+      }
+    }
+  },
+  // === 行动工具集 ===
+  // 用于 reproducer, communicator agent
+  "action": {
+    "description": "行动工具 — 代码生成、文件写入、终端执行",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      }
+    }
+  },
+  // === 升级工具集 ===
+  // 用于 escalator agent — 需要 icm-mcp 创建/搜索 IcM 事件
+  "escalation": {
+    "description": "升级工具 — 文档生成 + IcM 事件操作",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "icm-mcp": {
+        "enabled": true
+      }
+    }
+  },
+  // === 培训工具集 ===
+  // 用于 trainer agent — 需要 microsoft-docs 查询官方文档
+  "training": {
+    "description": "培训工具 — 文档查询 + 学习路径管理",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "microsoft-docs": {
+        "enabled": true
+      }
+    }
+  },
+  // === 知识管理工具集 ===
+  // 用于 knowledge-keeper agent
+  "knowledge": {
+    "description": "知识库管理工具 — TSG 搜索/创建/更新",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "microsoft-docs": {
+        "enabled": true
+      }
+    }
+  },
+  // === 协调者工具集 ===
+  // 用于 planner agent — 可委派任务给其他 agent
+  "coordinator": {
+    "description": "协调者工具 — 任务委派 + 所有 MCP",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      },
+      "Task": {
+        "enabled": true
+      },
+      "TeamCreate": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "azure-kusto": {
+        "enabled": true
+      },
+      "microsoft-docs": {
+        "enabled": true
+      },
+      "icm-mcp": {
+        "enabled": true
+      },
+      "crm": {
+        "enabled": true
+      },
+      "asc": {
+        "enabled": true
+      },
+      "workiq": {
+        "enabled": true
+      },
+      "ms-fabric-rti": {
+        "enabled": true
+      }
+    }
+  },
+  // === 完整工具集 ===
+  // 用于主 session — 完整权限
+  "full": {
+    "description": "完整工具集 — 所有工具 + 所有 MCP",
+    "tools": {
+      "Read": {
+        "enabled": true
+      },
+      "Write": {
+        "enabled": true
+      },
+      "Edit": {
+        "enabled": true
+      },
+      "Bash": {
+        "enabled": true
+      },
+      "Glob": {
+        "enabled": true
+      },
+      "Grep": {
+        "enabled": true
+      },
+      "LS": {
+        "enabled": true
+      },
+      "Task": {
+        "enabled": true
+      },
+      "TeamCreate": {
+        "enabled": true
+      },
+      "WebFetch": {
+        "enabled": true
+      }
+    },
+    "mcpServers": {
+      "azure-kusto": {
+        "enabled": true
+      },
+      "microsoft-docs": {
+        "enabled": true
+      },
+      "icm-mcp": {
+        "enabled": true
+      },
+      "crm": {
+        "enabled": true
+      },
+      "asc": {
+        "enabled": true
+      },
+      "workiq": {
+        "enabled": true
+      },
+      "ms-fabric-rti": {
+        "enabled": true
+      }
+    }
+  }
+}
