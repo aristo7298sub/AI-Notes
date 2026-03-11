@@ -26,7 +26,7 @@ author: "原文作者"
 
 中文翻译。
 
-<small>💬A: </small>
+<kbd>💬A: </kbd>
 
 ### 💡 解析
 
@@ -44,7 +44,7 @@ author: "原文作者"
 
 中文翻译。
 
-<small>💬A: </small>
+<kbd>💬A: </kbd>
 
 ### 💡 解析
 
