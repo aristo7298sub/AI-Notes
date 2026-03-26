@@ -39,45 +39,65 @@
 
 ## Article Index
 
-> Run ``.\_scripts\build-catalog.ps1`` to update. Last updated: 2026-03-19 17:05
+> Run ``.\_scripts\build-catalog.ps1`` to update. Last updated: 2026-03-26 11:08
 
-Total: **4** articles.
+Total: **6** articles.
 
 ### By Category
 
-#### Commentaries (1)
+#### Commentaries (2)
 
+- [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md) -- 2026-03-24
 - [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md) -- 2026-03-10
 
-#### Deep Dives (3)
+#### Deep Dives (4)
 
-- [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md) -- 2026-03-19
+- [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md) -- 2026-03-20
 - [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md) -- 2026-03-19
+- [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md) -- 2026-03-19
 - [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md) -- 2026-03-11
 
 ### By Tag
 
 **`Agent`**: [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md) | [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md)
 
+**`Agent-Harness`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
+
+**`Agentic-Coding`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
+
 **`AI Agent`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
 
 **`AI-Infrastructure`**: [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md)
+
+**`Anthropic`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
 
 **`architecture`**: [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md)
 
 **`Claude-Code`**: [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md)
 
+**`Claude-Opus`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
+
 **`Copilot`**: [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md)
 
+**`Evaluator-Agent`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
+
 **`function-calling`**: [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md)
+
+**`GAN-Pattern`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
 
 **`gateway`**: [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md)
 
 **`GPU`**: [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md)
 
+**`Hallucination`**: [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md)
+
 **`Jensen-Huang`**: [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md)
 
 **`Landlock`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
+
+**`LLM`**: [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md)
+
+**`Multi-Agent`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
 
 **`NemoClaw`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
 
@@ -97,10 +117,18 @@ Total: **4** articles.
 
 **`Skills`**: [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md)
 
+**`Transformer`**: [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md)
+
 **`VS-Code`**: [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md)
+
+**`幻觉`**: [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md)
+
+**`生成模型`**: [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md)
 
 ### Timeline
 
+- **2026-03-24** [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md) `Commentaries`
+- **2026-03-20** [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md) `Deep Dives`
 - **2026-03-19** [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md) `Deep Dives`
 - **2026-03-19** [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md) `Deep Dives`
 - **2026-03-11** [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md) `Deep Dives`
