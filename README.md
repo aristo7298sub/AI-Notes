@@ -39,16 +39,18 @@
 
 ## Article Index
 
-> Run ``.\_scripts\build-catalog.ps1`` to update. Last updated: 2026-03-26 11:08
+> Run ``.\_scripts\build-catalog.ps1`` to update. Last updated: 2026-03-27 17:58
 
-Total: **6** articles.
+Total: **8** articles.
 
 ### By Category
 
-#### Commentaries (2)
+#### Commentaries (4)
 
+- [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md) -- 2026-03-25
 - [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md) -- 2026-03-24
 - [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md) -- 2026-03-10
+- [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md) -- 2026-01-21
 
 #### Deep Dives (4)
 
@@ -63,15 +65,23 @@ Total: **6** articles.
 
 **`Agent-Harness`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
 
+**`Agentic Coding`**: [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md)
+
 **`Agentic-Coding`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
 
-**`AI Agent`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
+**`AI Agent`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md) | [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md)
 
 **`AI-Infrastructure`**: [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md)
 
-**`Anthropic`**: [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md)
+**`AI-Interview`**: [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md)
+
+**`Anthropic`**: [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md) | [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md) | [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md)
 
 **`architecture`**: [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md)
+
+**`Claude`**: [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md)
+
+**`Claude Code`**: [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md)
 
 **`Claude-Code`**: [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md)
 
@@ -91,6 +101,8 @@ Total: **6** articles.
 
 **`Hallucination`**: [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md)
 
+**`Hiring`**: [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md)
+
 **`Jensen-Huang`**: [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md)
 
 **`Landlock`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
@@ -107,7 +119,13 @@ Total: **6** articles.
 
 **`OpenShell`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
 
+**`Performance-Engineering`**: [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md)
+
 **`personal-ai`**: [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md)
+
+**`Prompt Injection`**: [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md)
+
+**`Safety`**: [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md)
 
 **`sandbox`**: [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md)
 
@@ -127,11 +145,13 @@ Total: **6** articles.
 
 ### Timeline
 
+- **2026-03-25** [Claude Code auto mode: a safer way to skip permissions | Claude Code 自动模式：一种更安全的权限跳过方式](commentaries/2026-03-25-anthropic-claude-code-auto-mode.md) `Commentaries`
 - **2026-03-24** [Harness Design for Long-Running Application Development | 长时运行应用开发的 Harness 设计](commentaries/2026-03-24-anthropic-harness-design-long-running-apps.md) `Commentaries`
 - **2026-03-20** [LLM 幻觉的由来：缺陷还是特性？](deep-dives/llm-hallucination-origins.md) `Deep Dives`
 - **2026-03-19** [OpenClaw 底层技术架构深度解析：一只龙虾是怎么变成 AI 助手的](deep-dives/openclaw-architecture-deep-dive.md) `Deep Dives`
 - **2026-03-19** [NemoClaw 安全架构深度解析：NVIDIA 如何让 AI Agent 不再'裸奔](deep-dives/nemoclaw-safety-architecture.md) `Deep Dives`
 - **2026-03-11** [Agent Skills 深入解析](deep-dives/Agent-Skills-Deep-Dive.md) `Deep Dives`
 - **2026-03-10** [AI Is a 5-Layer Cake | AI 是一块五层蛋糕](commentaries/2026-03-10-nvidia-ai-5-layer-cake.md) `Commentaries`
+- **2026-01-21** [Designing AI-Resistant Technical Evaluations | 设计抗 AI 的技术面试](commentaries/2026-01-21-anthropic-ai-resistant-technical-evaluations.md) `Commentaries`
 
 <!-- AUTO-GENERATED CATALOG END -->
